@@ -20,7 +20,7 @@ entity, and works with mouse, touch, or even gamepads.
 - ***Lightweight***: only compile what you need.
 - ***Expressive***: event listener components `On::<Pointer<Click>>::run(my_system)`.
 - ***Input Agnostic***: control pointers with mouse, pen, touch, or custom bevy systems.
-- ***Modular Backends***: mix and match backends like `rapier`, `egui`, `bevy_ui`, or write your own. 
+- ***Modular Backends***: mix and match backends like `rapier`, `egui`, `bevy_ui`, or write your own.
 ## Lightweight
 
 Only compile what you use. All non-critical plugins can be disabled, including highlighting,
@@ -63,7 +63,7 @@ custom gamepad input system you write yourself.
 Picking backends run hit tests to determine if a pointer is over any entities. This plugin provides
 an [extremely simple API to write your own backend](crates/bevy_picking_core/src/backend.rs) in
 about 100 lines of code; it also includes half a dozen backends out of the box. These include
-`rapier`, `egui`, and `bevy_ui`, among others. Multiple backends can be used at the same time! 
+`rapier`, `egui`, and `bevy_ui`, among others. Multiple backends can be used at the same time!
 
 You can have a simple rect hit test backend for your UI, a GPU picking shader for your 3D scene, and
 this plugin will handle sorting hits and generating events.
@@ -103,6 +103,7 @@ I intend to track the `main` branch of Bevy. PRs supporting this are welcome!
 
 | bevy | bevy_mod_picking |
 | ---- | ---------------- |
+| 0.12 | 0.16             |
 | 0.11 | 0.15             |
 | 0.10 | 0.12, 0.13, 0.14 |
 | 0.9  | 0.10, 0.11       |
@@ -124,4 +125,3 @@ at your option. This means you can select the license you prefer.
 
 ## Your contributions
 Unless you explicitly state otherwise, any contribution intentionally submitted for inclusion in the work by you, as defined in the Apache-2.0 license, shall be dual licensed as above, without any additional terms or conditions.
-

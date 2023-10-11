@@ -13,13 +13,13 @@ resolver = "2"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-bevy_app = { version = "0.11", default-features = false }
-bevy_derive = { version = "0.11", default-features = false }
-bevy_ecs = { version = "0.11", default-features = false }
-bevy_math = { version = "0.11", default-features = false }
-bevy_reflect = { version = "0.11", default-features = false }
-bevy_render = { version = "0.11", default-features = false }
-bevy_utils = { version = "0.11", default-features = false }
-bevy_window = { version = "0.11", default-features = false }
+bevy_app = { default-features = false, git = "https://github.com/bevyengine/bevy", rev = "35073cf7aa9eaf748e167c103921a6764fcedfb1" }
+bevy_derive = { default-features = false, git = "https://github.com/bevyengine/bevy", rev = "35073cf7aa9eaf748e167c103921a6764fcedfb1" }
+bevy_ecs = { default-features = false, git = "https://github.com/bevyengine/bevy", rev = "35073cf7aa9eaf748e167c103921a6764fcedfb1" }
+bevy_math = { default-features = false, git = "https://github.com/bevyengine/bevy", rev = "35073cf7aa9eaf748e167c103921a6764fcedfb1" }
+bevy_reflect = { default-features = false, git = "https://github.com/bevyengine/bevy", rev = "35073cf7aa9eaf748e167c103921a6764fcedfb1" }
+bevy_render = { default-features = false, git = "https://github.com/bevyengine/bevy", rev = "35073cf7aa9eaf748e167c103921a6764fcedfb1" }
+bevy_utils = { default-features = false, git = "https://github.com/bevyengine/bevy", rev = "35073cf7aa9eaf748e167c103921a6764fcedfb1" }
+bevy_window = { default-features = false, git = "https://github.com/bevyengine/bevy", rev = "35073cf7aa9eaf748e167c103921a6764fcedfb1" }
 
-bevy_eventlistener = "0.5"
+bevy_eventlistener = { git = "https://github.com/TristanCacqueray/bevy_eventlistener", rev = "f71603c83c3682d18cd913a534ff9c527597bc25" }
